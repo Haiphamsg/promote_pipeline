@@ -1,0 +1,231 @@
+canonical_id,canonical_key,alias_id,alias_key,score,used_count_canonical,used_count_alias,reason,decision,approved
+6198dae5-eb62-4102-a773-23df81c01a7a,trứng gà,cbb3fe63-2aa3-413d-be27-d9d8606ee3ef,trung_ga,1.0000,463,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+49622c1b-9887-4b26-85ec-6e6a5dafceb3,tương ớt,3bc34cfd-efe3-44a3-8001-83eb7fa53381,tương hột,0.9412,270,6,norm_sim=0.941 bucket=t:5,auto_reject,
+49622c1b-9887-4b26-85ec-6e6a5dafceb3,tương ớt,5a113f3f-3cd1-4163-a1d4-390d25f237aa,tuong_ot,1.0000,270,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+49622c1b-9887-4b26-85ec-6e6a5dafceb3,tương ớt,b61347c9-aed4-41d3-9393-9b12ab08dfab,tương ớt đường,1.0000,270,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+49622c1b-9887-4b26-85ec-6e6a5dafceb3,tương ớt,081c0e54-d3f6-4459-94e1-312d85db6186,đường tương ớt,1.0000,270,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+835a6a55-440e-43ce-b29a-efe80ab8d2a7,thịt heo,c98a4668-3ca2-496b-88f8-69f64c2308f0,thit_heo,1.0000,244,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+835a6a55-440e-43ce-b29a-efe80ab8d2a7,thịt heo,14cb8118-d2cd-4dbe-b950-e5b6f08bf6e3,thịt vai heo,1.0000,244,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+835a6a55-440e-43ce-b29a-efe80ab8d2a7,thịt heo,49b2651e-3caa-4d47-bfd4-7ea4bb13778b,thịt heo vai,1.0000,244,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+613e033c-04b4-446d-b5b1-6b0b34e1fc8d,thịt bò,90d148b9-714e-481e-82e4-f48e293e9fa8,thit_bo,1.0000,157,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+613e033c-04b4-446d-b5b1-6b0b34e1fc8d,thịt bò,e8e84fc1-f95d-428d-9a50-98f1699de39f,thịt vai bò,1.0000,157,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+613e033c-04b4-446d-b5b1-6b0b34e1fc8d,thịt bò,ed658fb9-fffc-443f-bda2-65cda7c9e380,thịt bò vai,1.0000,157,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+613e033c-04b4-446d-b5b1-6b0b34e1fc8d,thịt bò,449e28e3-1260-4e94-b384-85cc1c4da1bb,thịt bòa,0.9333,157,0,norm_sim=0.933 bucket=t:5,auto_reject,
+b36da081-2ac1-482b-8fcc-271aeae250de,thịt nạc,3f823bae-96a6-479a-b177-457060ce992e,thịt nách lợn,0.9412,124,1,norm_sim=0.941 bucket=t:5,auto_reject,
+b36da081-2ac1-482b-8fcc-271aeae250de,thịt nạc,a817e80a-21e8-4d3a-905e-c201d788a500,thịt nạc vai,1.0000,124,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+b36da081-2ac1-482b-8fcc-271aeae250de,thịt nạc,0509ca3e-9453-4a09-990b-2f0ee30911d7,thịt lợn nạc,1.0000,124,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+fce4d2d7-8c2f-4e28-9e39-4163b105bce7,thịt gà,85da0404-c02a-48a3-8893-7bf2a9408efd,thit_ga,1.0000,102,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+fce4d2d7-8c2f-4e28-9e39-4163b105bce7,thịt gà,876b8ee2-3c21-455f-9db6-964c49b193fa,thịt lợn vai gáy,0.9333,102,0,norm_sim=0.933 bucket=t:5,auto_reject,
+8c370960-e585-4486-b2c1-59f3d6d12f70,cải trắng,8accb55a-3601-4e4d-b0f5-0fd97fb06601,đường trắng,1.0000,91,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+0960820c-eca1-418d-89f9-6f271c99820a,tỏi phi,bf135163-3f5e-4571-bf00-56955ff22125,toi_phi,1.0000,81,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+a90b159d-f5d2-4f06-a8df-2771c3e16b3b,trứng cút,919a2796-5104-46a8-9a76-54ea658d1c86,trung_cut,1.0000,63,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+a90b159d-f5d2-4f06-a8df-2771c3e16b3b,trứng cút,dcf88ee1-7981-4ea3-9b4a-fac26c2f59e8,trứng cút lộn,1.0000,63,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+490b19ab-9e47-4e80-9825-bab58d74873d,tiêu xanh,f9845599-0599-4334-8c2f-7ec663e99230,tieu_xanh,1.0000,49,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+bb4efb4f-5a73-407d-9e8d-d53b28fae019,thịt đùi,a7cff677-d3e3-4ad5-98d8-c5a5ce008f48,thịt đùi dê,1.0000,38,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+05535f43-0ef0-4fdf-b443-81cba6b6ad74,trứng vịt,f00eb273-2873-4105-8c79-c67f46a15f36,trứng vịt lộn,1.0000,33,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+6d4fa10f-609e-4c3d-abdf-b5e5b8482444,thịt bằm,a1fa4dc6-e2d0-4568-a4cb-7d0603421674,thit_bam,1.0000,29,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+64520bbe-b3b1-4848-b493-815cc169745b,tôm nõn,6545e4fc-49ff-430b-bd34-d249673b225c,tôm khô nõn,1.0000,26,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+eff8390f-9156-4283-a10f-770b116c624c,đường thốt nốt,02ce8a81-4ddb-4ac3-8ed4-c9d2a6bfc6e6,thốt nốt,1.0000,14,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+145ad9ae-0128-4f4b-8f47-7144fb56a01d,trái ớt,debe3d72-0e33-4d2f-a29c-c772fabdf8ff,vài trái ớt,1.0000,14,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+145ad9ae-0128-4f4b-8f47-7144fb56a01d,trái ớt,384e428c-cd51-4d32-96fd-9c38c10fba6e,vài trái ớt khô hoặc,1.0000,14,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+1a952be4-bfe6-4cb7-9e37-a66638ec5515,tiêu bột,90b47c4b-87e0-472a-9950-d7deaa35f412,tiêu ớt,0.9333,11,1,norm_sim=0.933 bucket=t:5,auto_reject,
+73640c20-e41e-4a99-8502-a31bfebe9733,thịt rang,5eb61bca-ad84-40a1-8b97-1c151327c41c,thịt vai rang,1.0000,8,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+17efd338-3b77-441a-a36c-8c61d742399d,trà muối,967f58c4-a00c-4bc0-8837-22eb9ace0471,trái muối,0.9412,8,1,norm_sim=0.941 bucket=t:5,manual_review,
+17efd338-3b77-441a-a36c-8c61d742399d,trà muối,d92757c7-0856-4fac-b620-a452e182e4ff,trà vơi muối,1.0000,8,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+810513ae-3443-4c25-a640-ce39148f002f,tép đồng,12f6e45c-1eef-476a-8790-50dbf883e90b,tép sông,0.9333,7,1,norm_sim=0.933 bucket=t:5,auto_reject,
+810513ae-3443-4c25-a640-ce39148f002f,tép đồng,b7b2175e-e077-442a-88ce-1e65e22a9216,tép rong,0.9333,7,1,norm_sim=0.933 bucket=t:5,auto_reject,
+3bc34cfd-efe3-44a3-8001-83eb7fa53381,tương hột,5a113f3f-3cd1-4163-a1d4-390d25f237aa,tuong_ot,0.9412,6,0,norm_sim=0.941 bucket=t:5,auto_reject,
+3bc34cfd-efe3-44a3-8001-83eb7fa53381,tương hột,b61347c9-aed4-41d3-9393-9b12ab08dfab,tương ớt đường,0.9412,6,0,norm_sim=0.941 bucket=t:5,auto_reject,
+3bc34cfd-efe3-44a3-8001-83eb7fa53381,tương hột,081c0e54-d3f6-4459-94e1-312d85db6186,đường tương ớt,0.9412,6,0,norm_sim=0.941 bucket=t:5,auto_reject,
+c4ba252f-3b37-4a0f-b582-012c43ee49ea,tôm sông,177bfa65-d658-46b0-abf0-01e04d62378b,tôm đồng,0.9333,4,3,norm_sim=0.933 bucket=t:5,auto_reject,
+0074b734-e4e5-4e80-b9e8-f32b4f8c605e,thịt cua,cfaf59a7-e673-4de7-a0b4-01bd3ed669f6,thịt cá mối,0.9333,4,1,norm_sim=0.933 bucket=t:5,auto_reject,
+6fb33036-41da-4b4f-b4cc-d67788024ded,tỏi hành,dd88d3f3-29f9-4c99-bfec-ac0fd057870b,tỏi hàh,0.9333,4,0,norm_sim=0.933 bucket=t:5,auto_reject,
+fa12bda7-954d-4645-805c-0c67d8d7333f,thịt thăn lợn,76732bcf-f405-4fc4-b862-9cbcac61985c,thịt thăn,1.0000,4,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+fa12bda7-954d-4645-805c-0c67d8d7333f,thịt thăn lợn,25006843-46d0-4813-9cb3-cb47ed872627,thịt lợn thăn,1.0000,4,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+0d913d59-c2c3-408a-a6a1-26476538710c,thịt mỡ,f82e41a8-20a3-4739-a2bc-718218cb644b,thịt mỡ khổ,1.0000,4,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+40e764be-670d-48fc-bfb9-1972c1aaf343,tiêu hột,90b47c4b-87e0-472a-9950-d7deaa35f412,tiêu ớt,0.9333,3,1,norm_sim=0.933 bucket=t:5,auto_reject,
+794fdf62-9b6b-448e-a007-6010daaa139c,gói thuốc bắc,64dd3c39-73cb-404a-b073-b9ad2f23431a,thuốc bắc,1.0000,2,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+3f823bae-96a6-479a-b177-457060ce992e,thịt nách lợn,a817e80a-21e8-4d3a-905e-c201d788a500,thịt nạc vai,0.9412,1,0,norm_sim=0.941 bucket=t:5,auto_reject,
+3f823bae-96a6-479a-b177-457060ce992e,thịt nách lợn,0509ca3e-9453-4a09-990b-2f0ee30911d7,thịt lợn nạc,0.9412,1,0,norm_sim=0.941 bucket=t:5,auto_reject,
+9c7c27af-c9ed-4b38-a201-8b72607ffc69,to gừng,8bd61296-de80-4873-a969-d7d3c09fd663,tỏi + gừng,0.9333,1,1,norm_sim=0.933 bucket=t:5,manual_review,
+967f58c4-a00c-4bc0-8837-22eb9ace0471,trái muối,d92757c7-0856-4fac-b620-a452e182e4ff,trà vơi muối,0.9412,1,0,norm_sim=0.941 bucket=t:5,manual_review,
+c98a4668-3ca2-496b-88f8-69f64c2308f0,thit_heo,14cb8118-d2cd-4dbe-b950-e5b6f08bf6e3,thịt vai heo,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+c98a4668-3ca2-496b-88f8-69f64c2308f0,thit_heo,49b2651e-3caa-4d47-bfd4-7ea4bb13778b,thịt heo vai,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+90d148b9-714e-481e-82e4-f48e293e9fa8,thit_bo,e8e84fc1-f95d-428d-9a50-98f1699de39f,thịt vai bò,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+90d148b9-714e-481e-82e4-f48e293e9fa8,thit_bo,ed658fb9-fffc-443f-bda2-65cda7c9e380,thịt bò vai,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+90d148b9-714e-481e-82e4-f48e293e9fa8,thit_bo,449e28e3-1260-4e94-b384-85cc1c4da1bb,thịt bòa,0.9333,0,0,norm_sim=0.933 bucket=t:5,auto_reject,
+85da0404-c02a-48a3-8893-7bf2a9408efd,thit_ga,876b8ee2-3c21-455f-9db6-964c49b193fa,thịt lợn vai gáy,0.9333,0,0,norm_sim=0.933 bucket=t:5,auto_reject,
+919a2796-5104-46a8-9a76-54ea658d1c86,trung_cut,dcf88ee1-7981-4ea3-9b4a-fac26c2f59e8,trứng cút lộn,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+5a113f3f-3cd1-4163-a1d4-390d25f237aa,tuong_ot,b61347c9-aed4-41d3-9393-9b12ab08dfab,tương ớt đường,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+5a113f3f-3cd1-4163-a1d4-390d25f237aa,tuong_ot,081c0e54-d3f6-4459-94e1-312d85db6186,đường tương ớt,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+14cb8118-d2cd-4dbe-b950-e5b6f08bf6e3,thịt vai heo,49b2651e-3caa-4d47-bfd4-7ea4bb13778b,thịt heo vai,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+a817e80a-21e8-4d3a-905e-c201d788a500,thịt nạc vai,0509ca3e-9453-4a09-990b-2f0ee30911d7,thịt lợn nạc,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+76732bcf-f405-4fc4-b862-9cbcac61985c,thịt thăn,25006843-46d0-4813-9cb3-cb47ed872627,thịt lợn thăn,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+e8e84fc1-f95d-428d-9a50-98f1699de39f,thịt vai bò,ed658fb9-fffc-443f-bda2-65cda7c9e380,thịt bò vai,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+e8e84fc1-f95d-428d-9a50-98f1699de39f,thịt vai bò,449e28e3-1260-4e94-b384-85cc1c4da1bb,thịt bòa,0.9333,0,0,norm_sim=0.933 bucket=t:5,auto_reject,
+debe3d72-0e33-4d2f-a29c-c772fabdf8ff,vài trái ớt,384e428c-cd51-4d32-96fd-9c38c10fba6e,vài trái ớt khô hoặc,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+b61347c9-aed4-41d3-9393-9b12ab08dfab,tương ớt đường,081c0e54-d3f6-4459-94e1-312d85db6186,đường tương ớt,1.0000,0,0,norm_sim=1.000 bucket=t:5,auto_approve,Y
+ed658fb9-fffc-443f-bda2-65cda7c9e380,thịt bò vai,449e28e3-1260-4e94-b384-85cc1c4da1bb,thịt bòa,0.9333,0,0,norm_sim=0.933 bucket=t:5,auto_reject,
+f0b00e31-0fdd-4b20-a9d8-cce3e31435b2,bột chiên giòn,377de464-7ec1-469f-8f67-df0889c6ed79,bột chiên giòn loại,1.0000,193,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+f0b00e31-0fdd-4b20-a9d8-cce3e31435b2,bột chiên giòn,b771ae7f-f742-4364-8abb-145a3f35b959,gói bột chiên giòn,1.0000,193,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+e5b019c2-5842-43ef-83b0-590f73984e9d,bột ca cao,ad389bf8-961b-4c7a-821d-abc5fcaacba2,bột cao cao,0.9524,92,2,norm_sim=0.952 bucket=b:10,manual_review,
+bb4b331d-8935-43eb-ab5c-b29e546c4547,bánh tráng,cba15d07-cae1-43ce-a9b7-db435c341f6a,banh_trang,1.0000,45,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+bb4b331d-8935-43eb-ab5c-b29e546c4547,bánh tráng,bf23a8ca-67ff-4d65-82f0-af1a7431e0a6,bánh tráng loại,1.0000,45,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+383c651b-e0f4-4cd7-8f19-cbacce6f03d4,baking soda,f05ec8a4-3d3c-4462-a9e9-a4c81ce2a333,banking soda,0.9565,35,0,norm_sim=0.957 bucket=b:10,manual_review,
+6518e9a5-4748-4790-8dea-4fd00a111bcb,baking powder,5ddd0652-876b-445c-b20c-c0266aebcd80,baking power,0.9600,18,2,norm_sim=0.960 bucket=b:10,auto_reject,
+6518e9a5-4748-4790-8dea-4fd00a111bcb,baking powder,aca18024-bef7-4780-8952-0a25027d593a,barking powder,0.9630,18,0,norm_sim=0.963 bucket=b:10,manual_review,
+3933b5fa-213f-4708-807c-1118059a313f,bột phomai,5447dc5f-f0b0-4e6a-b8f7-d7a8353ea2ae,bột phô mai,0.9524,6,3,norm_sim=0.952 bucket=b:10,auto_reject,
+6ebb8b77-193e-4b51-a070-a2681b7bc7ea,bột ớt paprika,ca739c18-a902-4e46-8cc1-5c19899c2814,bôt ớt parika,0.9630,5,1,norm_sim=0.963 bucket=b:10,auto_reject,
+e21e21e9-7c86-447b-965d-2dbaca4fc608,bột canh i-ốt,5daf8db2-a259-49c0-b989-b118cb529e40,bột canh iot,0.9600,5,2,norm_sim=0.960 bucket=b:10,auto_reject,
+d6320e13-a04f-4349-8444-2333a0565cd2,ba_chi_heo,dae4564a-c4ad-442d-b95e-cb909cbd5da1,ba chỉ heo,1.0000,4,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+523aadc7-9f17-409c-8003-2dcaf58b28f9,bột cake flour,dc9604d6-20b7-45f2-a5ee-8a40ca2498d2,bột cakeflour,0.9630,4,1,norm_sim=0.963 bucket=b:10,auto_reject,
+5447dc5f-f0b0-4e6a-b8f7-d7a8353ea2ae,bột phô mai,027a6f3d-7b0a-47fb-83fa-2285558e873f,bơ hoặc phô mai,0.9524,3,1,norm_sim=0.952 bucket=b:10,manual_review,
+f29ac3d5-bcdd-46f2-bece-eeffe74b039a,bột tỏi hoặc tỏi,f9a304ea-4cd6-40ab-8c53-99643abf1169,bột tỏi/tỏi,1.0000,2,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+b7ec2e8f-ff7c-4c8f-ad04-a3a67db722c5,bánh mì ăn kèm,6291a59b-ec84-4362-99b8-2f7ea0d53c7e,bánh mì dùng kèm,1.0000,2,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+5ddd0652-876b-445c-b20c-c0266aebcd80,baking power,9d0129af-bd62-4068-9e7c-73954d92cc3e,backing power,0.9600,2,0,norm_sim=0.960 bucket=b:10,manual_review,
+ca739c18-a902-4e46-8cc1-5c19899c2814,bôt ớt parika,2350ae3f-f440-49cc-b943-1a7500a48ccd,bột ớt parpika,0.9630,1,1,norm_sim=0.963 bucket=b:10,auto_reject,
+55ea5e22-5359-4963-9143-72a9ad239c25,bột cacao ko đường,a33dbfd5-45cd-478e-b841-10f96183a662,bột ca cao ko đường,0.9600,1,1,norm_sim=0.960 bucket=b:10,manual_review,
+cba15d07-cae1-43ce-a9b7-db435c341f6a,banh_trang,bf23a8ca-67ff-4d65-82f0-af1a7431e0a6,bánh tráng loại,1.0000,0,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+377de464-7ec1-469f-8f67-df0889c6ed79,bột chiên giòn loại,b771ae7f-f742-4364-8abb-145a3f35b959,gói bột chiên giòn,1.0000,0,0,norm_sim=1.000 bucket=b:10,auto_approve,Y
+ed55e004-80e5-47ed-8dc1-9d7ac6599d03,sữa tươi không đường,d86b7547-795d-4a85-a82e-7b20cf36eace,sữa tươi không đường hộp,1.0000,167,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+ed55e004-80e5-47ed-8dc1-9d7ac6599d03,sữa tươi không đường,1789818d-89cf-491c-a555-861c55ec4788,sữa không đường,1.0000,167,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+aa4a2c22-1fa5-4206-83b0-c715e121de64,sữa đặc,65f33077-5b0d-4ba7-b723-36391d94c43e,đường hoặc sữa đặc,1.0000,159,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+f499b8b6-f67d-43d3-9f00-e9de117e2b77,sữa tươi k đường,8e5fffc7-b3e6-4607-aa53-9a4ab1d13686,sữa k đường,1.0000,71,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+010fe155-6bb3-49a6-a2aa-989b8a8cb8c9,sườn heo,8858c43c-f3b7-4fa8-8aca-6a08c24b9508,sụn heo,0.9333,57,2,norm_sim=0.933 bucket=s:5,auto_reject,
+010fe155-6bb3-49a6-a2aa-989b8a8cb8c9,sườn heo,12fb6046-c657-455a-9ddd-a3af319c7c7c,sườn chéo,0.9412,57,1,norm_sim=0.941 bucket=s:5,auto_reject,
+010fe155-6bb3-49a6-a2aa-989b8a8cb8c9,sườn heo,5578f9ad-67b5-4a6b-bae2-d1dfeac24004,suon_heo,1.0000,57,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+4649b253-1a35-450c-8c4c-3f3f3bd9e572,sa tế,9ec0a4eb-6a8b-4f64-8217-865ffa5786d5,sa_te,1.0000,48,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+7e49a224-5fb5-4345-99b7-b380a1f5b88e,sữa chua,fc04ddcc-36cc-4147-8716-5f4d99eec68f,sữa chua cái,1.0000,25,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+34b7534a-b5f5-419f-84c6-224f1594a454,sữa tươi ko đường,d2abf744-7c2c-4556-ad93-e4c5a334fef0,sữa ko đường,1.0000,12,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+7a6d67cf-12a1-4dcb-93fc-b701f793f749,sữa tươi có đường,25ee8ea2-b8df-4a53-9008-8b96c6d3913f,sữa có đường,1.0000,11,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+8a639207-8ffa-46e8-b5f3-50abbf51cacb,sữa tươi th,717868ba-3aec-4f87-a543-4a3401fd08a4,sữa th đường,1.0000,11,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+8a639207-8ffa-46e8-b5f3-50abbf51cacb,sữa tươi th,97b9298f-bf5a-4a07-b2e8-985e13dfeca6,sữa th,1.0000,11,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+8a639207-8ffa-46e8-b5f3-50abbf51cacb,sữa tươi th,63251439-c8cc-44d9-8143-36577528b425,sữa tươi th đường,1.0000,11,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+8a639207-8ffa-46e8-b5f3-50abbf51cacb,sữa tươi th,8bc94a93-da9f-4dd2-808d-21c6303fa7c1,sữa tươi đường th,1.0000,11,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+efc27fe3-fe2e-4bd3-9c66-fcfe69446efb,sa tế tôm,bd5cd3db-23a5-49c1-b674-be9e80c07e80,sate tôm,0.9412,9,0,norm_sim=0.941 bucket=s:5,manual_review,
+f72e501b-591d-47d9-8aa8-4e9904f27291,syrup,2f60e9cf-a47b-461d-b838-90139e0bd31c,syrup đường,1.0000,9,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+f72e501b-591d-47d9-8aa8-4e9904f27291,syrup,6808d8c4-2dd2-436b-a628-2362afeadf5a,đường syrup,1.0000,9,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+23e2ecfa-499d-4f8d-825a-36903f88901d,sườn chay,3d7bcdcd-170c-44ad-bf07-329f91e01c7b,sườn cây,0.9412,8,2,norm_sim=0.941 bucket=s:5,auto_reject,
+7147135f-f0f2-4ffe-b2b7-b1da3944cb99,sườn bò,c9068162-5456-4928-836b-cbc38e02847e,dẻ sườn bò,1.0000,4,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+02e8b66f-bc15-4fa9-9803-108e6fdda90f,sữa tươi ấm,39e2e367-e2d0-46cf-badb-61f7b109018c,sữa ấm,1.0000,3,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+8858c43c-f3b7-4fa8-8aca-6a08c24b9508,sụn heo,5578f9ad-67b5-4a6b-bae2-d1dfeac24004,suon_heo,0.9333,2,0,norm_sim=0.933 bucket=s:5,auto_reject,
+c358834b-87fc-4c76-af3c-981556708b80,siro bắp,3f280a14-9667-4c21-bb8c-12b7deb87047,si rô bắp,0.9412,2,0,norm_sim=0.941 bucket=s:5,manual_review,
+48427138-6d36-4110-9ae8-8d93a3030e3d,sữa tươi k đg,14c5f994-243e-416c-b5f1-c95bac3111f0,sữa tươi ko đg,0.9333,2,1,norm_sim=0.933 bucket=s:5,manual_review,
+850b0221-ca2a-415b-99f8-db6d0bc04702,sữa th có đường,bf919750-194e-446f-9a42-007f6e3e7b36,sữa t có đường,0.9412,2,1,norm_sim=0.941 bucket=s:5,manual_review,
+12fb6046-c657-455a-9ddd-a3af319c7c7c,sườn chéo,5578f9ad-67b5-4a6b-bae2-d1dfeac24004,suon_heo,0.9412,1,0,norm_sim=0.941 bucket=s:5,auto_reject,
+d86b7547-795d-4a85-a82e-7b20cf36eace,sữa tươi không đường hộp,1789818d-89cf-491c-a555-861c55ec4788,sữa không đường,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+717868ba-3aec-4f87-a543-4a3401fd08a4,sữa th đường,97b9298f-bf5a-4a07-b2e8-985e13dfeca6,sữa th,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+717868ba-3aec-4f87-a543-4a3401fd08a4,sữa th đường,63251439-c8cc-44d9-8143-36577528b425,sữa tươi th đường,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+717868ba-3aec-4f87-a543-4a3401fd08a4,sữa th đường,8bc94a93-da9f-4dd2-808d-21c6303fa7c1,sữa tươi đường th,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+2f60e9cf-a47b-461d-b838-90139e0bd31c,syrup đường,6808d8c4-2dd2-436b-a628-2362afeadf5a,đường syrup,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+97b9298f-bf5a-4a07-b2e8-985e13dfeca6,sữa th,63251439-c8cc-44d9-8143-36577528b425,sữa tươi th đường,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+97b9298f-bf5a-4a07-b2e8-985e13dfeca6,sữa th,8bc94a93-da9f-4dd2-808d-21c6303fa7c1,sữa tươi đường th,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+63251439-c8cc-44d9-8143-36577528b425,sữa tươi th đường,8bc94a93-da9f-4dd2-808d-21c6303fa7c1,sữa tươi đường th,1.0000,0,0,norm_sim=1.000 bucket=s:5,auto_approve,Y
+27f4adcb-d08b-4d89-b3bc-173750a60927,cà rốt,a3689ad4-fd73-4af2-928f-867ff8073dec,ca_rot,1.0000,733,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+508298b4-6604-4d29-8fa1-63b659759b64,cà chua,0cc47e15-1aa2-4574-b18c-01cfd3754546,ca_chua,1.0000,323,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+508298b4-6604-4d29-8fa1-63b659759b64,cà chua,78c4ba46-c02a-4ec6-9be1-a06de424fa2d,chà chua,0.9333,323,0,norm_sim=0.933 bucket=c:5,manual_review,
+6aa7d1d3-7145-44e1-82de-d257ea466cfc,chanh,6ea0c5eb-93a7-45d0-8df0-2a38e30edc35,chanh.đường,1.0000,274,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+02dbe587-44b6-4203-965f-509899d3c303,canh dầu ăn,c8af0fcb-10f3-46a5-997a-486413c9807e,canh dầu,1.0000,205,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+02dbe587-44b6-4203-965f-509899d3c303,canh dầu ăn,349aa172-997e-4020-a7d2-7a6b2ba9fd7c,ăn canh dầu ăn,1.0000,205,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+c936ba6c-68d4-4260-a2ba-e76816bbb38a,cafe muối,9d77bb1a-34a3-4d31-8d48-99cd0d3ea61a,cafe muối ăn,1.0000,86,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+c552b2c3-c439-44fb-890f-fee6193162d1,cà phê đường,5ab31fbb-3a74-4728-aa44-b49399ab0444,cà phê,1.0000,76,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+29a00d64-fe0f-4229-99be-f6b1fba4a0ea,canh tỏi,663c7cee-3e48-49b0-8e49-2a940d9f9a11,canh tỏi tươi,1.0000,50,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+56bfeca1-5352-49b2-995e-7eb135e15759,cà tím,265aaf28-b45b-4006-bc0d-2379a1b20e5c,cà tím loại,1.0000,49,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+dce183d6-96e0-47d9-b5b9-540d88b57b79,cánh gà,722d5746-5381-49f9-9582-ae4042a6e984,canh gạo,0.9333,43,1,norm_sim=0.933 bucket=c:5,auto_reject,
+dce183d6-96e0-47d9-b5b9-540d88b57b79,cánh gà,56e71a9a-eda1-4cd3-a24f-1142e606c1c4,canh_ga,1.0000,43,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+6764c80d-4add-49ff-88be-7837b817439d,cá nục,1568462e-95ce-4814-8e67-724498175fdd,cá nục hộp,1.0000,39,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+8ca1ed00-1fc0-4812-b141-d800b59570b9,củ cải trắng,75064d96-4f77-414e-9fc7-c86920bd000d,cu_cai_trang,1.0000,32,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+d9c9c912-ebe6-479e-8618-add414cca2fb,canh muối,ce99a84f-5fe6-4a82-b78d-e73edd60cebf,canh vơi muối,1.0000,32,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+ada9033b-448b-408c-b126-443e66000c1d,chả cá,77c5aa58-97ac-4a18-9e6f-411f8097b796,cha_ca,1.0000,25,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+59e64e4c-5e3e-419b-9454-cb0ba802f0e3,chả lụa,e17b2c81-d48a-47cd-9e12-2f639fa60c0c,cha_lua,1.0000,24,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+4480f587-c908-4aae-ab91-dacb5d7d2f1f,cá ngừ,fd276e02-ba93-4ef3-9358-80ee408693bd,ca_ngu,1.0000,17,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+4480f587-c908-4aae-ab91-dacb5d7d2f1f,cá ngừ,ce849671-6642-42c9-b8a2-82da3682a9aa,cá ngừ hộp,1.0000,17,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+179572f0-a312-41bb-9271-24ecf6a1ce84,canh nước,eabef2e1-c7e9-4f82-8715-e8ee5dd336cd,cần nước,0.9412,14,2,norm_sim=0.941 bucket=c:5,manual_review,
+179572f0-a312-41bb-9271-24ecf6a1ce84,canh nước,20afe489-baaa-4d99-8ea0-aa2bc1742203,canh nước uống,1.0000,14,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+71b533d7-2e2e-4023-8136-234765dc1657,cá cơm,7c016665-0119-4162-9d0c-ef66757f9070,cá cơm kho,1.0000,12,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+f3add397-8d10-4f9c-b9fb-d24387c3edf4,chút muối,e99df751-ccf8-412c-9de8-3bb3bbb1bd60,chút muối ăn,1.0000,12,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+f3add397-8d10-4f9c-b9fb-d24387c3edf4,chút muối,74f0bac1-b7e4-44cb-9a68-415981961b8a,một chút muối,1.0000,12,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+8f091fd5-049e-4bf8-8407-11f45ec0cdf2,cá viên,18480f3a-55c2-43f9-a2fd-7d7ef7651eeb,ca_vien,1.0000,11,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+c8cc6ae1-c6fa-47d5-9ee3-66e7c083d9c5,canh giấm,7beaccc9-c14e-4952-b4f1-fb7401c7ce08,canh giấm ăn,1.0000,11,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+3e3e181e-6c5c-4975-b112-cad6450def20,chà bông,875aa228-deb1-4d7e-bd8a-ec46e25f4511,cá bống,0.9333,10,5,norm_sim=0.933 bucket=c:5,manual_review,
+dd4e378f-874d-4980-b97f-2921a5262c8e,chả chay,2d667e01-db5b-4d2a-bcfd-8a749406eabe,chả chá,0.9333,9,1,norm_sim=0.933 bucket=c:5,auto_reject,
+a307a42c-8110-45af-b627-1ed4829c1163,cua đồng,63db61df-a158-4e16-ba3c-b3c6c3339b24,cua_dong,0.9333,9,1,norm_sim=0.933 bucket=c:5,auto_reject,
+4bb34481-f624-4106-abb1-8791c1db9764,cá thu,2d4ab24d-08e2-4aa6-a5fc-5286f4987766,ca_thu,1.0000,8,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+f6a785b2-69fa-45f2-8ae7-6899528dac75,chút tiêu,7432c43e-c47f-40c0-b071-6f8a7edb98b2,một chút tiêu,1.0000,8,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+63257cb5-6c1d-4341-a4c2-3b1be1245547,canh ớt,337a01ad-8f90-4feb-9f89-f99e145b68e0,chanh ớt,0.9333,7,3,norm_sim=0.933 bucket=c:5,auto_reject,
+63257cb5-6c1d-4341-a4c2-3b1be1245547,canh ớt,b60d298a-e56a-49ac-9801-03236d8c8ec3,canh đường bột,0.9333,7,2,norm_sim=0.933 bucket=c:5,auto_reject,
+63257cb5-6c1d-4341-a4c2-3b1be1245547,canh ớt,60fe1d83-683e-48fd-9145-4e89c56f1d19,canh sốt kho,0.9333,7,1,norm_sim=0.933 bucket=c:5,auto_reject,
+821256ba-e1d5-4671-ae38-d2c15f7e6fe8,cá bớp,9a24e61a-186c-4f59-9208-fef6f148b373,cá bớp kho,1.0000,7,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+47688b56-0ad0-4e09-98f2-f7d5394d590c,canh dấm,cb6e790b-4903-405b-b535-5caf6f59e136,canh dấm ăn,1.0000,7,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+5b6f1aed-2dd0-4ec4-9fef-7bb15f04301c,cá chẽm,b9e9d66a-8480-4ff0-8942-b4970ec35f67,ca_chem,1.0000,7,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+b2ddd2da-2c84-4a5e-8daf-c0fa3f14f11f,canh sả,74850fb7-747b-400d-9cee-9a12a18533b3,canh sữa,0.9333,6,4,norm_sim=0.933 bucket=c:5,auto_reject,
+8ec1e747-b93c-4a01-afcf-4dea928a9f70,cơm mẻ,eeb41649-9bc6-4016-ab26-4a4ae43e9869,ăn cơm mẻ,1.0000,6,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+30409ab9-edbb-4e22-a661-5410548a1728,cà ri bột,a66afd9d-e105-4296-a718-7c46fc6fde3f,cà ri bơ,0.9412,5,1,norm_sim=0.941 bucket=c:5,auto_reject,
+b8e3b77b-92ab-4b50-8013-c89c1e8b7168,cá basa,a89538c2-3faf-40b4-9f38-0db28ca04041,cá ba sa,0.9333,5,1,norm_sim=0.933 bucket=c:5,auto_reject,
+3af405fb-ad5c-48b3-ad3d-8a29492913a6,cá phèn,c939c971-3ce9-49b1-af7d-2be60842bb10,cá phèn kho,1.0000,5,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+2c7534a5-8c9b-49a6-b856-6b0c93920aa6,cá song,4dc22faa-3507-482c-88d7-a85e9cf846cf,cáy sông,0.9333,4,1,norm_sim=0.933 bucket=c:5,manual_review,
+b3258788-14a2-41ef-8b3f-7a1c5cd91d9f,cơm dầu ăn,dcae0b70-ec81-4110-9434-59223b94fb04,ăn cơm dầu ăn,1.0000,4,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+b0fc4afb-8038-4d9a-8818-8cf5517f6258,vài cây sả,39da6992-9524-4338-91e3-72977e78bc67,cây sả,1.0000,4,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+4ff98574-6780-4b15-b1ab-77a706029705,cá hồng,697bb75d-3e0a-4bdb-aec6-c882c62c8aca,cá nhòng,0.9333,4,2,norm_sim=0.933 bucket=c:5,auto_reject,
+e32b8551-055c-440e-91e8-04e1a6860690,coca-cola,38239099-fc93-426e-97bf-0d3b4cfd4df8,cocacola,0.9412,4,1,norm_sim=0.941 bucket=c:5,auto_reject,
+e32b8551-055c-440e-91e8-04e1a6860690,coca-cola,d44a8e2b-2e49-4fa6-9369-3e3749748c40,/chai coca cola,1.0000,4,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+0e965a15-3be2-4243-96d0-72586cf91ab9,ca_tra,fb006a14-f0f2-4bd1-9c4f-072c23e98f4c,cá tra,1.0000,3,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+1da15f4f-7a32-4617-898e-d6f28cce2543,cá chuồn,89561bab-91af-4cdc-9dc7-06fa853cc78a,cá chuồng,0.9412,3,1,norm_sim=0.941 bucket=c:5,auto_reject,
+1f2148c1-e524-4ffc-8d5b-fab6ba1da807,vài cọng ngò,d1b1e59d-019a-47ca-8be2-5ada93c16b81,cọng cải ngọt,0.9412,3,1,norm_sim=0.941 bucket=c:5,auto_reject,
+1f2148c1-e524-4ffc-8d5b-fab6ba1da807,vài cọng ngò,4d6597e3-cb82-4ab8-9da7-de809cf87894,con ngô,0.9333,3,1,norm_sim=0.933 bucket=c:5,manual_review,
+f4409adb-67fb-448f-b5d1-fb5e87acb8de,cá biển,f4193db9-e532-4d6f-88f8-95daf06f4d7e,cua biển,0.9333,3,1,norm_sim=0.933 bucket=c:5,auto_reject,
+f4409adb-67fb-448f-b5d1-fb5e87acb8de,cá biển,66b9efb9-6852-4e07-8c5d-aeaaca0b1c64,cá biển khoảng,1.0000,3,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+d05cd7ce-2ee6-4b6f-a8f0-b65ad36c2af9,củ nghệ,7926bac1-7e48-4639-a431-841211cf0e9b,một củ nghệ,1.0000,3,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+b7e4d95e-4a1c-4262-8e5e-b2ce6d19df9c,canh nghệ tươi,9f822754-9fc0-40f7-9ecd-e5fb1d1ce592,canh nghệ,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+b5399d0d-a67d-406b-a457-34b7ad86732f,canh bơ,b60d298a-e56a-49ac-9801-03236d8c8ec3,canh đường bột,0.9333,2,2,norm_sim=0.933 bucket=c:5,auto_reject,
+7f678c13-e00b-4d28-952e-8c3053a743c9,chân giò,532e9d43-33ff-4f36-a7f6-d45316de789d,chả giò,0.9333,2,1,norm_sim=0.933 bucket=c:5,auto_reject,
+eabef2e1-c7e9-4f82-8715-e8ee5dd336cd,cần nước,20afe489-baaa-4d99-8ea0-aa2bc1742203,canh nước uống,0.9412,2,0,norm_sim=0.941 bucket=c:5,manual_review,
+08269126-087f-4e24-ad17-adef8536197a,ăn cơm nước,603d64e8-7ebe-4411-a34f-2f9a7e6d6f5b,cơm nước,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+a5967aa3-e707-4fd1-8416-a48a6622fbbb,cá hộp sốt cà,17e1aa44-a802-4081-a9e2-8c4674137694,cá mòi sốt cà,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+8e23963f-eff3-4ffd-9c01-76ae2e5bf302,củ kiệu,b556a9f3-3765-4844-847a-570691da8c1d,cu_kieu,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+19ac15d8-53f6-42e3-92a8-2fe1f23b4cc2,cơm giấm,27248608-3448-4b2c-88c4-9088a0bc042e,ăn cơm giấm,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+6fbec580-066d-4533-9577-8a3cc34ec08c,cá tuna hộp,f3337ef9-a6f4-432d-b2ee-b652d6840b15,cá tunas,0.9333,2,1,norm_sim=0.933 bucket=c:5,auto_reject,
+6fbec580-066d-4533-9577-8a3cc34ec08c,cá tuna hộp,5d2b7655-5882-4e95-96cd-0c09bfd53163,cá tuna,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+da78f1f5-7694-406d-9d09-a70305c03632,vài cọng súng,22b53dac-9246-44d0-bccb-7a6577f0b789,cọng súng,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+c49206d5-74a8-4fee-ab95-b4efdd173a7c,cafe dấm ăn,8a449401-371e-4d43-814a-f28283237d7d,cafe dấm,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+c99e43bd-d236-4307-a452-ca85173574f7,ăn cơm mắm,fbb0acb8-2406-4daa-aea4-482311a69856,cơm mắm,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+e035ea00-4062-4510-9898-84efef1d3ef9,cafe đường đen,97b320a9-4553-41d4-a25b-6db05eaf12d4,cafe men,0.9333,2,1,norm_sim=0.933 bucket=c:5,auto_reject,
+e035ea00-4062-4510-9898-84efef1d3ef9,cafe đường đen,fbaccde3-91a8-46d8-903a-d166e3f8fa9b,cafe đen,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+f1043eca-3acc-417b-b5ba-78e9281ec6d1,vài con tôm,286c9e49-5716-4a70-ad6c-b5aac9c2b359,con tôm,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+8eaa6e31-40f0-4ab5-b16b-f5aabe78a198,lon cô ca,87882a56-6d24-4337-9ac4-aca188304388,cô ca,1.0000,2,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+81be0c8d-9dfd-45eb-8fb0-fa1daf2cca6b,cá trứng,65687794-8107-413f-a86d-652ae36dfb47,chả trứng,0.9412,1,1,norm_sim=0.941 bucket=c:5,manual_review,
+81be0c8d-9dfd-45eb-8fb0-fa1daf2cca6b,cá trứng,7be5c930-0beb-45ad-bb15-3df0c99a1adb,cha_trung,0.9412,1,0,norm_sim=0.941 bucket=c:5,manual_review,
+2d667e01-db5b-4d2a-bcfd-8a749406eabe,chả chá,78c4ba46-c02a-4ec6-9be1-a06de424fa2d,chà chua,0.9333,1,0,norm_sim=0.933 bucket=c:5,auto_reject,
+7f2bcc14-e6d9-4c0f-bdd4-b2a5810091ca,cá file,13ac202c-6766-40fb-a295-d71ea93c5be7,cá filet,0.9333,1,1,norm_sim=0.933 bucket=c:5,auto_reject,
+62003a58-eb26-4074-97cc-10fe73dabef1,chanh ta,8a21f4e8-8e09-4e5d-b4fb-07f75e637a96,chanh trà,0.9412,1,1,norm_sim=0.941 bucket=c:5,auto_reject,
+888b61f4-fe4f-4a9f-b609-1df2bd052ec3,chả cua,78c4ba46-c02a-4ec6-9be1-a06de424fa2d,chà chua,0.9333,1,0,norm_sim=0.933 bucket=c:5,auto_reject,
+62003a58-eb26-4074-97cc-10fe73dabef1,chanh ta,836ba27f-4394-4882-80a5-5549d159f0f3,chanh hoặc tắc,0.9412,1,1,norm_sim=0.941 bucket=c:5,auto_reject,
+9cc6d1c3-a55a-4a43-a763-6672b6cd664b,cà rốt đã,796d8fc7-edfc-4b01-b751-7fa4d7044a9d,cà rốt ta,0.9412,1,1,norm_sim=0.941 bucket=c:5,auto_reject,
+f3337ef9-a6f4-432d-b2ee-b652d6840b15,cá tunas,5d2b7655-5882-4e95-96cd-0c09bfd53163,cá tuna,0.9333,1,0,norm_sim=0.933 bucket=c:5,auto_reject,
+722d5746-5381-49f9-9582-ae4042a6e984,canh gạo,56e71a9a-eda1-4cd3-a24f-1142e606c1c4,canh_ga,0.9333,1,0,norm_sim=0.933 bucket=c:5,auto_reject,
+65687794-8107-413f-a86d-652ae36dfb47,chả trứng,7be5c930-0beb-45ad-bb15-3df0c99a1adb,cha_trung,1.0000,1,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+f4193db9-e532-4d6f-88f8-95daf06f4d7e,cua biển,66b9efb9-6852-4e07-8c5d-aeaaca0b1c64,cá biển khoảng,0.9333,1,0,norm_sim=0.933 bucket=c:5,auto_reject,
+4728b218-2779-41a5-bf1f-6e604329b923,cafe mè,97b320a9-4553-41d4-a25b-6db05eaf12d4,cafe men,0.9333,1,1,norm_sim=0.933 bucket=c:5,auto_reject,
+97b320a9-4553-41d4-a25b-6db05eaf12d4,cafe men,fbaccde3-91a8-46d8-903a-d166e3f8fa9b,cafe đen,0.9333,1,0,norm_sim=0.933 bucket=c:5,auto_reject,
+38239099-fc93-426e-97bf-0d3b4cfd4df8,cocacola,d44a8e2b-2e49-4fa6-9369-3e3749748c40,/chai coca cola,0.9412,1,0,norm_sim=0.941 bucket=c:5,auto_reject,
+fd276e02-ba93-4ef3-9358-80ee408693bd,ca_ngu,ce849671-6642-42c9-b8a2-82da3682a9aa,cá ngừ hộp,1.0000,0,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+0cc47e15-1aa2-4574-b18c-01cfd3754546,ca_chua,78c4ba46-c02a-4ec6-9be1-a06de424fa2d,chà chua,0.9333,0,0,norm_sim=0.933 bucket=c:5,manual_review,
+c8af0fcb-10f3-46a5-997a-486413c9807e,canh dầu,349aa172-997e-4020-a7d2-7a6b2ba9fd7c,ăn canh dầu ăn,1.0000,0,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+e99df751-ccf8-412c-9de8-3bb3bbb1bd60,chút muối ăn,74f0bac1-b7e4-44cb-9a68-415981961b8a,một chút muối,1.0000,0,0,norm_sim=1.000 bucket=c:5,auto_approve,Y
+8030d25e-4b94-4e2c-bc36-f5597bdba5a6,dầu hào,ea34474b-97bb-4b4e-bbda-123480ef12ce,dau_hao,1.0000,523,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+352f6ab0-2503-4acd-bc41-e9e192eceed4,dầu mè,7d1f90b1-394d-4220-973a-1336a0754916,dau_me,1.0000,177,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+7ae00c4c-33a9-471d-bc9e-a6c8bba33418,dưa leo,c987d3ef-1ba6-4a8f-bb40-4ba6ef5eecf0,dua_leo,1.0000,123,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+7ae00c4c-33a9-471d-bc9e-a6c8bba33418,dưa leo,557dd2a3-15a9-4235-a708-ef7146279b8b,ăn dưa leo,1.0000,123,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+e04b7fae-3123-4cfb-9aef-12a282279cef,dưa chuột,552bee92-01c1-4df9-bf32-6efc513436b9,dưa chuột loại,1.0000,51,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+21ce38f7-e8cf-4814-9f7d-65f6e057f12f,dầu oliu,68a1f899-ed96-4645-ad64-89bab6317177,dầu ô liu,0.9412,34,3,norm_sim=0.941 bucket=d:5,auto_reject,
+9a000e37-a2ef-4a55-b16a-cdeb54104ec0,dầu điều,d1fce47d-d40b-4393-8f95-93b9bcef70e9,dầu diều,0.9333,29,2,norm_sim=0.933 bucket=d:5,auto_reject,
+9795fbe3-3784-41f4-a0b6-248b46e52dad,dưa chua,c30b8e56-5b65-434c-ad44-9b579982cd51,dua_chua,1.0000,29,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+9795fbe3-3784-41f4-a0b6-248b46e52dad,dưa chua,15908453-441d-455e-b1a8-68f8553deb1c,dua_cai_chua,1.0000,29,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+9795fbe3-3784-41f4-a0b6-248b46e52dad,dưa chua,7d153158-dd29-4459-a1af-da5e51e4ea02,dưa cải chua,1.0000,29,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+9b932fc1-f305-4959-a0da-272db79fdee1,da heo,92902068-1264-4b6c-98c8-34085a5190cb,ít da heo,1.0000,23,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+43d6771d-2f31-4c1e-8b2d-3356c038dfaa,dầu ăn hoặc mỡ,07a68633-cd99-4174-9dc7-cbc05db670a9,dầu/ mỡ,1.0000,18,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+43d6771d-2f31-4c1e-8b2d-3356c038dfaa,dầu ăn hoặc mỡ,b2d709c8-6297-4680-b31d-a6b39c80731b,dầu ăn/ mỡ lợn,1.0000,18,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+43d6771d-2f31-4c1e-8b2d-3356c038dfaa,dầu ăn hoặc mỡ,2a890a6b-0054-44d7-b769-ecf498ad5a53,dầu ăn/ mỡ,1.0000,18,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+d625bca3-2692-49f9-aef2-b6d470f76a93,dưa muối,540a95e0-5819-4412-ab6a-c6412bcc84eb,dưa cải muối,1.0000,3,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+917d8029-3627-4c7f-9389-48a8fdc2d6e9,dầu phộng,19ddb149-8a6f-408c-a1bf-30e4eaf96475,dau_phong,1.0000,3,0,norm_sim=1.000 bucket=d:5,auto_approve,Y
+88bae31a-9c66-4229-b698-cc798b4db6ae,dầu ớt,3d25c0f6-b5fb-4c7a-9ed4-980d34ad4e99,dầu ăn ớt,1.0000,1,1,norm_sim=1.000 bucket=d:5,auto_approve,Y
