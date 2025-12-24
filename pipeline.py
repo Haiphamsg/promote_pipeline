@@ -1,4 +1,5 @@
 import os, re, uuid, unicodedata
+from collections import defaultdict
 from dataclasses import dataclass
 from decimal import Decimal, InvalidOperation
 from typing import Optional, List, Tuple
@@ -6,9 +7,21 @@ from typing import Optional, List, Tuple
 import psycopg2
 from psycopg2.extras import execute_values
 from dotenv import load_dotenv
-
 load_dotenv()
+BATCH_METRICS = defaultdict(int)
 
+def is_dropped_ingredient_line(text: str) -> bool:
+    if not text:
+        return True
+
+    words = text.strip().split()
+    if len(words) > 8:   # câu văn
+        return True
+
+    if re.search(r"\d", text):  # chứa số
+        return True
+
+    return False
 # ---------- Config ----------
 NAMESPACE_UUID = uuid.UUID(os.environ.get("NAMESPACE_UUID", "11111111-1111-1111-1111-111111111111"))
 
@@ -332,9 +345,11 @@ def get_or_create_ingredient(prod_cur, key: str, alias_norm: str) -> str:
         VALUES (%s, %s, %s, 'other', FALSE)
         ON CONFLICT (key) DO UPDATE SET
             key = EXCLUDED.key
-        RETURNING id
+        RETURNING id, (xmax = 0) AS inserted
     """, (key, key, alias_norm))
-    ingredient_id = prod_cur.fetchone()[0]
+    ingredient_id, inserted = prod_cur.fetchone()
+    if inserted:
+        BATCH_METRICS["new_ingredients_created"] += 1
 
     # 4) create alias (không fail nếu trùng)
     prod_cur.execute("""
@@ -406,14 +421,18 @@ def promote_recipe(stg_conn, prod_conn, stg_recipe_id: int):
             dedup: dict[str, tuple] = {}  # ing_id -> (ing_id, amount, unit, note, role)
             for raw in ing_texts:
                 raw = strip_bad_prefix(raw)
-                if looks_like_sentence(raw):
+                BATCH_METRICS["ingredient_lines_total"] += 1
+
+                if is_dropped_ingredient_line(raw):
+                    BATCH_METRICS["ingredient_lines_dropped"] += 1
                     continue
-                if not raw or not raw.strip():
-                    continue
+
                 for pi in parse_ingredient_text_phase1(raw):
                     ing_id = get_or_create_ingredient(pcur, pi.key, pi.alias_norm)
                     ing_key = str(ing_id)
                     if ing_key not in dedup:
+                        if pi.amount is not None:
+                            BATCH_METRICS["amount_parsed"] += 1
                         dedup[ing_key] = (ing_id, pi.amount, pi.unit, pi.note, pi.role)
                     else:
                         _, amt0, unit0, note0, role0 = dedup[ing_key]
@@ -422,6 +441,7 @@ def promote_recipe(stg_conn, prod_conn, stg_recipe_id: int):
                         if has_amount(amt0):
                             amt, unit = amt0, unit0
                         elif has_amount(pi.amount):
+                            BATCH_METRICS["amount_parsed"] += 1
                             amt, unit = pi.amount, pi.unit
                         else:
                             amt, unit = None, None
@@ -432,8 +452,19 @@ def promote_recipe(stg_conn, prod_conn, stg_recipe_id: int):
             parsed_rows = list(dedup.values())
             replace_recipe_ingredients(pcur, rid_uuid, parsed_rows)
 
-            active = (len(steps) >= 3 and len(parsed_rows) >= 4 and len(name or "") >= 10)
+            active = (
+                len(steps) >= 3 and
+                len(parsed_rows) >= 4 and
+                len(pname or "") >= 10
+            )
             set_recipe_active(pcur, rid_uuid, active)
+
+            # METRIC
+            BATCH_METRICS["recipes_total"] += 1
+            if active:
+                BATCH_METRICS["recipes_ok"] += 1
+            else:
+                BATCH_METRICS["recipes_inactive"] += 1
 
     return {"status": "ok", "stg_recipe_id": stg_recipe_id, "product_recipe_id": str(rid_uuid), "steps": len(steps), "ingredients": len(parsed_rows), "active": active}
 
@@ -457,6 +488,26 @@ def run_batch(hours=48, limit=3000):
             except Exception as e:
                 fail += 1
                 print("FAIL", rid, e)
+
+        def print_batch_metrics():
+            total = BATCH_METRICS.get("ingredient_lines_total", 0)
+            dropped = BATCH_METRICS.get("ingredient_lines_dropped", 0)
+            amount_ok = BATCH_METRICS.get("amount_parsed", 0)
+
+            drop_pct = (dropped / total * 100) if total else 0
+            amount_pct = (amount_ok / total * 100) if total else 0
+
+            print("\n=== BATCH METRICS ===")
+            print(f"recipes_total: {BATCH_METRICS.get('recipes_total',0)}")
+            print(f"recipes_ok: {BATCH_METRICS.get('recipes_ok',0)}")
+            print(f"recipes_inactive: {BATCH_METRICS.get('recipes_inactive',0)}")
+            print(f"new_ingredients_created: {BATCH_METRICS.get('new_ingredients_created',0)}")
+            print(f"ingredient_lines_total: {total}")
+            print(f"ingredient_lines_dropped: {dropped} ({drop_pct:.1f}%)")
+            print(f"amount_parsed: {amount_ok} ({amount_pct:.1f}%)")
+            print("=====================\n")
+
+        print_batch_metrics()
         return {"ok": ok, "skip": skip, "fail": fail, "total": len(ids)}
     finally:
         stg_conn.close()
@@ -481,4 +532,3 @@ def strip_bad_prefix(text: str) -> str:
 
 if __name__ == "__main__":
     print(run_batch(limit=1000))
-
